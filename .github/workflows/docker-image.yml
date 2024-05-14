@@ -28,7 +28,7 @@ jobs:
         docker build -t fmyersdev/docker-graphql:0.0.2 .
     - name: Push Docker Image
       run: |
-        docker push fmyersdev/docker-graphql:0.0.2 .
+        docker push fmyersdev/docker-graphql:0.0.2
         
         
     
